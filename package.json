@@ -1,6 +1,6 @@
 {
   "name": "calculator",
-  "homepage": "https://muhammadfaizkhan.github.io/calculator",
+  "homepage": "https://muhammadfaizkhan.github.io/simple-calculator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
