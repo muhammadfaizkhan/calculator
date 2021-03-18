@@ -1,0 +1,18 @@
+.calculator_delete{
+    height: 4em;
+    background-color: rgb(54, 98, 148);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 1px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator_delete:hover{
+    background-color: rgb(47, 92, 143);
+    transform: scaleX(-34deg, 23deg);
+    transition: 0.3s ease-in transform;
+}

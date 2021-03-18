@@ -1,0 +1,21 @@
+.calculator_button{
+    padding: 27px;
+    display: flex;
+    margin-top: 1px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(92, 196, 156);
+    color: white;
+    border: 1px solid rgba(58, 57, 57, 0.11);
+    cursor: pointer;
+    margin-left: 1px;
+    flex: 1;
+}
+.operator{
+    background-color: rgb(202, 133, 30);
+    color: white;
+    margin-left: 1px;
+
+}

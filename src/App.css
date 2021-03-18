@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;600;700;900&family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@200;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@200;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+
+.calculator {
+  text-align: center;
+  background-color: #f3f3f3;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.calculator_header img{
+  width: 100px;
+}
+
+.ant-tabs{
+  justify-content: center;
+  align-items: center;
+}
+.ant-tabs-nav{
+  display: flex;
+  border: none !important;
+  flex-direction: column;
+}
+.calculator_heading{
+  margin: 30px;
+}
+.calculator_heading h5 img{
+  width: 24px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.calculator_heading h5{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+
+}
+.anticon.anticon-ellipsis{
+  display: none;
+}
+.calculator_header {
+  padding-top: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.calculator_header h1{
+  color: black;
+  font-family: 'Reem Kufi', sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.ant-btn.ant-btn-primary{
+  background-color: rgb(29, 39, 63);
+  border: none;
+}
+
+.ant-btn.ant-btn-danger{
+  background-color: rgb(29, 39, 63);
+  border: none;
+}
+.ant-btn.ant-btn-danger:hover{
+  background-color: darkslategray;
+}
+.ant-btn.ant-btn-primary:hover{
+  background-color: darkslategray;
+}
+.ant-btn.ant-btn-danger:focus-within{
+  background-color: darkslategray;
+}
+.ant-btn.ant-btn-primary:focus-within{
+  background-color: darkslategray;
+}
+.simple{
+  margin-top: 40%;
+}
+.calculator_footer{
+  background-color: rgb(180, 121, 32);
+  padding-top: 11px;
+  padding-bottom: 6px;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+
+}
+.calculator_footer p{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.calculator_footer p a{
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
